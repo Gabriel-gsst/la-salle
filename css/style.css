@@ -1,0 +1,59 @@
+
+@import url("components/avatar.css");
+@import url("components/box.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+body{
+	background-image: url(images/carbon.jpg); 
+	background-size: cover
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+}
+
+  .Hobbie img {
+  width: 70px; /* Ajustez la largeur de l'image selon vos besoins */
+  height: auto; /* Pour conserver le ratio de l'image */
+  transition: filter 0.3s; /* Ajoute une transition fluide */
+}
+
+.Hobbie hover img {
+  filter: brightness(0.8); /* Réduit la luminosité de l'image pour un effet de couleur plus sombre */
+}
+
+
+a:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+h3 {
+	color: #01396A ;
+	text-justify: center;
+	font-size: 25px;
+	 font-family: "Tenor Sans", sans-serif;
+	 font-weight: bolder;
+	 text-shadow:2px 2px 4px rgba(255, 255, 255, 0.4);;
+}
+
+h4{
+	color: #3F612D;
+	text-justify: center;
+}
+
+
+--mint-green: #d7fff1ff;
+--light-green: #aafcb8ff;
+--light-green-2: #8cd790ff;
+--cambridge-blue: #77af9cff;
+--castleton-green: #285943ff;
