@@ -1,0 +1,54 @@
+
+
+
+.echauf {
+  width: 950px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  background-color: #ffffff;0.1;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
+  text-align: center; 
+  color: #776D5A;
+
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .echauf {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 960px, this CSS will be read */
+  .echauf {
+    width: 250px;
+  }
+}
+
+.echauf h2 {
+	color: #77af9cff ;
+}
+
+.dos {
+	  width: 320px; 
+  margin: 0 auto; 
+  margin-bottom: 20px; /* Ajoute de l'espace en bas de chaque boîte */
+  padding: 5px; 
+  background-color: #aafcb8ff;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
+  text-align: center; 
+  color: #776D5A;
+}
+
+.dos h3 {
+  margin: 0; /* Supprimer la marge autour du texte h2 */
+  padding: 0; /* Supprimer le remplissage autour du texte h2 */
+}
+
