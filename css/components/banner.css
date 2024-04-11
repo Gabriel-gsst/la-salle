@@ -1,0 +1,60 @@
+.banner {
+	  width: 1300px; 
+  margin: 0 0;
+  background: url(../images/salle.png);
+   background-position: center;
+  padding: 170px; 
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px; 
+  text-align: center; 
+  color: #776D5A;
+  display: flex; /* Utilisation de Flexbox */
+  align-items: center; /* Centrage vertical */
+  justify-content: center; /* Centrage horizontal */
+  
+  
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 960px, this CSS will be read */
+  .banner {
+    width: 250px;
+  }
+}
+
+
+.banner img {
+  max-width: 250px; /* Ajustez la largeur des images selon vos besoins */
+  height: auto; /* Pour conserver le ratio de l'image */
+  border-radius: 75%;
+  border-top: 3px solid rgba(255, 255, 255, 0.75);
+    border-left: 3px solid rgba(255, 255, 255, 0.75);
+}
+
+.text h1 {
+    font-size: 60px;
+    color: #285943ff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    padding-bottom: 65px;
+}
+.text h3  {
+    color: #D5F9DE;
+}
+.text h4 {
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+
+.text {
+  text-align: center; /* Centrage du texte à l'intérieur de son conteneur */
+  margin: 0 90px; /* Ajoute un peu d'espace autour du texte */
+}

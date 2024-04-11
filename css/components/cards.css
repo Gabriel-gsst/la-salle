@@ -1,0 +1,75 @@
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 960px, this CSS will be read */
+  .cards {
+     width: 100%; /* Utilisez toute la largeur disponible */
+    
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    justify-content:flex-end ;
+  }
+}
+
+
+.card {
+  display: flex;
+   flex-basis: calc(33.33% - 20px);
+	padding: 20px;
+	margin: 10px;
+	background-color: rgba(255, 255, 255, 0.1);
+	
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}.precard h2 {
+	font-size: 50px;
+	 font-weight: bolder;
+	 color: #aafcb8ff;
+	 text-align: center;
+	 align-items: center;
+
+}
+
+.precard p {
+	color: #d7fff1ff;
+	text-align: center;
+	 align-items: center;
+	padding-bottom: 30px;
+}
+.card p {
+	color: #d7fff1ff;
+	text-align: center;
+	 align-items: center;
+	padding: 30px;
+}
+
+.cards img {
+	max-width: 150px; /* Ajustez la largeur des images selon vos besoins */
+  height: auto;
+  padding-left: 20px;
+}
+
+
+
+.card h3 {
+  flex-grow: 1;
+  padding: 30px;
+   font-weight: bolder;
+	 color: #aafcb8ff;
+	 text-align: center;
+	 align-items: center;
+}
